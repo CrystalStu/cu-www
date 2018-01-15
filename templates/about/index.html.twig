@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About Crystal Studios</title>
-
-<!-- Bootstrap -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
+{% extends "base.html.twig" %}
+{% block title %}About Crystal Studios{% endblock %}
+{% block body %}
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,6 +17,7 @@
             <li><a href="#ccs">Crystal Computer Studio</a></li>
             <li><a href="#mqs">Minecraft QUARTZ Studio</a></li>
             <li><a href="#cws">Crystal Web Service</a></li>
+              <li><a href="#coi">Crystal OI</a></li>
             <li class="divider"></li>
             <li class="dropdown-header">Partner Services</li>
             <li><a href="#mvl">Minecraft Vast-Light</a></li>
@@ -60,18 +43,19 @@
 </div>
 <div class="container">
   <div class="row text-center">
-    <div class="col-md-8 col-md-offset-2">Crystal Studios Union is a united organization that help people to do many things by using computers. <br /><strong>Feel free to use our services :-)</strong> </div>
+    <div class="col-md-8 col-md-offset-2">Crystal Studios is a united organization that help people's living & relaxing & researching. <br /><strong>Feel free to use our services :-)</strong> </div>
   </div>
   <hr>
   <div class="row">
     <div class="text-center col-md-12">
       <div class="well"><strong> Original Crystal Services</strong></div>
     </div>
-    <div class="text-justify col-sm-4"> <div id="ccs" class="text-center"><h4><strong>C</strong>rystal <strong>C</strong>omputer <strong>S</strong>tudio</h4></div> Crystal Computer Studio is the core of original Crystal studios, you can code here freely and you can also push your own code to GitHub without a license from the studio. Now we are work with C++ algorithms, welcome to join us. <br><div class="text-center"><button type="button" class="btn btn-info btn-sm" onClick="window.location='//shang.qq.com/wpa/qunwpa?idkey=49476185987009a82355f5654c20d0a047823c522dc8dd95e2ff91f57b06a357'">Join us</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="onclick1()"> Alternative link</button></div></div>
+    <div class="text-justify col-sm-3"> <div id="ccs" class="text-center"><h4><strong>C</strong>rystal <strong>C</strong>omputer <strong>S</strong>tudio</h4></div> Crystal Computer Studio is the core of original Crystal studios, you can code here freely and you can also push your own code to GitHub without a license from the studio. Now we are work with C++ algorithms, welcome to join us. <br><div class="text-center"><button type="button" class="btn btn-info btn-sm" onClick="window.location='//shang.qq.com/wpa/qunwpa?idkey=49476185987009a82355f5654c20d0a047823c522dc8dd95e2ff91f57b06a357'">Join us (QQ Group)</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="onclick1()"> Alternative link</button></div></div>
     <script type="text/javascript">function onclick1(){alert("QQ Group: 217163637");}</script>
-    <div class="col-sm-4 text-justify"> <div id="mqs" class="text-center"><h4><strong>M</strong>inecraft <strong>Q</strong>UARTZ <strong>S</strong>tudio</h4></div> Minecraft QUARTZ Studio is the Minecraft service of original Crystal studios with partner Vast-Light Studio, you can play Minecraft or develop Minecraft extensions. We have a perfect tools package contains Installer and Launcher, welcome to join us. <br><div class="text-center"><button type="button" class="btn btn-info btn-sm" onClick="window.location='//shang.qq.com/wpa/qunwpa?idkey=a5a3552acd28d1aa9ee6f3712f66fda607169314a71fab1aa9e120bb59699070'">Play with us</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="onclick2()"> Alternative link</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="window.location='https://github.com/CrystalStu/Minecraft-Tools-Package'"> GitHub repo</button></div></div>
+    <div class="col-sm-3 text-justify"> <div id="mqs" class="text-center"><h4><strong>M</strong>inecraft <strong>Q</strong>UARTZ <strong>S</strong>tudio</h4></div> Minecraft QUARTZ Studio is the Minecraft service of original Crystal studios with partner Vast-Light Studio, you can play Minecraft or develop Minecraft extensions. We have a perfect tools package contains Installer and Launcher, welcome to join us. <br><div class="text-center"><button type="button" class="btn btn-info btn-sm" onClick="window.location='//shang.qq.com/wpa/qunwpa?idkey=a5a3552acd28d1aa9ee6f3712f66fda607169314a71fab1aa9e120bb59699070'">Play with us (QQ Group)</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="onclick2()"> Alternative link</button>&nbsp;<button type="button" class="btn btn-lg btn-xs btn-info" onClick="window.location='https://github.com/CrystalStu/Minecraft-Tools-Package'"> GitHub repo</button></div></div>
     <script type="text/javascript">function onclick2(){alert("QQ Group: 296390523\nInstaller: http://vast-light.iask.in/down/vlc_installer.exe");}</script>
-    <div class="col-sm-4 text-justify"> <div id="cws" class="text-center"><h4><strong>C</strong>rystal <strong>W</strong>eb <strong>S</strong>ervice</h4></div> CWS is the web service of original Crystal studios, you can do web development. CWS is attached to Crystal Computer Studio, welcome to join us.</div>
+    <div class="col-sm-3 text-justify"> <div id="cws" class="text-center"><h4><strong>C</strong>rystal <strong>W</strong>eb <strong>S</strong>ervice</h4></div> CWS is the web service of original Crystal studios, you can do web development. CWS is related to Crystal Computer Studio, welcome to join us.</div>
+      <div class="col-sm-3 text-justify"> <div id="coi" class="text-center"><h4><strong>C</strong>rystal <strong>O</strong>lympiad in <strong>I</strong>nformatics</h4></div> Crystal OI is a group for Oiers for National Olympiad in Informatics (China). Crystal OI is related to Crystal Computer Studio, welcome to join us. <br><div class="text-center"><button type="button" class="btn btn-info btn-sm" onClick="window.location='//shang.qq.com/wpa/qunwpa?idkey=b7ce0bdcf09a1bd4941956d672aab255a2ef6614df5ef7cfb564e874fe04ef1f'">Join us (QQ Group)</button></div></div>
   </div>
   <hr>
   <div class="row">
@@ -87,9 +71,20 @@
     </div>
     <div class="col-sm-6 text-center" id="adc">
       <h4>Adament Commune</h4>
-      <p>A commune which researches animations(When They Cry) and physics.</p>
+      <p>A commune which researches animations (When They Cry) and physics.</p>
     </div>
   </div>
+    <hr>
+    <div class="row">
+        <div class="text-center col-md-12">
+            <div class="well"><strong> Unions</strong></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center" id="mvl">
+            <p>Crystal Studios Union &middot; AC (Adament-Crystal) Union </p>
+        </div>
+    </div>
   <hr>
   <div class="row">
     <div class="text-center col-md-6 col-md-offset-3">
@@ -98,5 +93,4 @@
   </div>
   <hr>
 </div>
-</body>
-</html>
+{% endblock %}
