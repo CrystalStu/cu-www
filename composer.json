@@ -8,7 +8,6 @@
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/apache-pack": "^1.0",
-        "symfony/assetic-bundle": "^2.8",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",
