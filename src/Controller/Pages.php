@@ -20,4 +20,11 @@ class Pages extends Controller
     public function showAbout() {
         return $this->render("about/index.html.twig");
     }
+
+    /**
+     * @Route("/cooperation")
+     */
+    public function showCooperation() {
+        return $this->render("cooperation/index.html.twig");
+    }
 }
