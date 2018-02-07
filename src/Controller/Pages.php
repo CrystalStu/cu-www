@@ -22,9 +22,16 @@ class Pages extends Controller
     }
 
     /**
-     * @Route("/cooperation")
-     */
+ * @Route("/cooperation")
+ */
     public function showCooperation() {
         return $this->render("cooperation/index.html.twig");
+    }
+
+    /**
+     * @Route("/test")
+     */
+    public function showTest() {
+        return $this->render("test.html.twig");
     }
 }

@@ -3,6 +3,11 @@
 {% block stylesheets %}
     {{ parent() }}
     <link href="css/cooperation.css" rel="stylesheet" />
+    {% block javascripts %}
+        {{ parent() }}
+        <script src="js/typed.js"></script>
+        <script src="js/cooperation.js"></script>
+    {% endblock %}
 {% endblock %}
 {% block body %}
     {% block navbar %}
@@ -37,10 +42,12 @@
         </div>
         <div class="row text-center">
             <div class="col-md-8 col-md-offset-2">Crystal Studios is a united organization that help people's living & relaxing & researching. <br />
-                <hr><div class="embrace embrace-a">We embrace open research.</div>
+                <hr>
+                We embrace open <div id="typed-strings" class="embrace"></div><span id="typed"></span>.
+                <!--<div class="embrace embrace-a">We embrace open research.</div>
                 <div class="embrace embrace-b">We embrace open source.</div>
                 <div class="embrace embrace-c">We embrace open brain.</div>
-                <div class="embrace embrace-d">We embrace open organization.</div>
+                <div class="embrace embrace-d">We embrace open organization.</div>-->
             </div>
         </div>
         <hr>
