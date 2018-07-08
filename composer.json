@@ -62,5 +62,11 @@
             "id": "01C23HDN5K4XBR8NT7XS9G04C6",
             "allow-contrib": false
         }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
