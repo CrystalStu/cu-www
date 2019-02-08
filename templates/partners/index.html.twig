@@ -1,0 +1,84 @@
+{% extends "base.html.twig" %}
+{% block title %}Partners with Crystal Studios{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="css/partners.css" rel="stylesheet" />
+    {% block javascripts %}
+        {{ parent() }}
+        <script src="js/typed.js"></script>
+        <script src="js/partners.js"></script>
+    {% endblock %}
+{% endblock %}
+{% block body %}
+    {% block navbar %}
+        {{ parent() }}
+        <!--
+        {% block navbar_contents %}
+            <div class="collapse navbar-collapse" id="defaultNavbar1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="..">Back</a></li>
+                </ul>
+            </div>
+        {% endblock %}
+        -->
+    {% endblock %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="text-center">Build Partnerships with Crystal Studios</h1>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-md-12">
+                <div class="well"><strong> Synopsis</strong></div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2">Crystal Studios is a united organization that help people's living & relaxing & researching. <br />
+                <hr>
+                We embrace the open community, the open mind, the open world<!--<div id="embrace"></div>-->!
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="text-center col-md-12">
+                <div class="well"><strong> Contact Methods</strong></div>
+            </div>
+        </div>
+        <div class="row text-center">
+            Mail: <a href="mailto:master@mail.cstu.gq">master@mail.cstu.gq</a> <br>
+            Telegram: <a href="https://t.me/joinchat/G2kqnw8WUfMAXarlsYLdmg">Join Comprehensive Telegram Group</a> <br>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="text-center col-md-12">
+                <div class="well"><strong> Departments</strong></div>
+            </div>
+            <div class="col-sm-6 text-justify"> <div id="ccs" class="text-center"><h4>Crystal Computer Studio</h4></div> Crystal Computer Studio is the core of Crystal Studios. Why we built this community is to provide a place for youngsters, especially talented students, to discuss trending technologies, and to practice them via coding in person. <br><a href="https://github.com/CrystalStu">GitHub</a>&nbsp;<a href="https://www.luogu.org/team/show?teamid=6257">Crystal OI @ Luogu Online Judge (Chinese)</a></div>
+            <div class="col-sm-6 text-justify"> <div id="cws" class="text-center"><h4>Crystal Web Service</h4></div> Crystal Web Service is the web service of original Crystal Studios. This department maintains servers and websites for Crystal Studios. It is attached to Crystal Computer Studio.<br></div>
+        </div>
+        <hr>
+        <div class="col-sm-12 text-center"><p>Please contact us to get more information.</p></div>
+        <hr>
+        <div class="row">
+            <div class="text-center col-md-12">
+                <div class="well"><strong> Unions</strong></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center" id="uni">
+                <p>
+                    Crystal Studios Union
+                </p>
+            </div>
+        </div>
+        {% block end %} {{ parent() }} {% endblock %}
+    </div>
+{% endblock %}
