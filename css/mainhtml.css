@@ -1,0 +1,32 @@
+img {
+	width: 24px;
+	height: 24px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: rgb(0, 51, 102);
+	transition: color .4s;
+}
+
+a:link a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 102, 153);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(0, 153, 153);
+	text-decoration: none;
+}
+
+.faa {
+	color: rgb(0, 47, 134);
+	font-size: 20px;
+}
