@@ -1,9 +1,27 @@
 body {
     font-family: 'Open Sans', 'Noto Sans JP', 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans KR', sans-serif;
 }
-a {
-    text-decoration: none;
-}
+
 code {
     font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+	color: rgb(0, 51, 102);
+    transition: color .4s;
+    text-decoration: none;
+}
+
+a:link a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 102, 153);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(0, 153, 153);
+	text-decoration: none;
 }
