@@ -31,7 +31,9 @@
       <div class="col-sm-12">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><a href="https://ccs.cstu.gq/" target="_blank"><img src="img/ccs.png" />&nbsp;Crystal Computer Studio</a></li>
-          <li class="list-group-item"><a href="https://twitter.com/aitc19x" target="_blank"><img src="img/aitc.svg" /> AMSJXNU IT Club</a></li>
+          <li class="list-group-item"><a href="https://aitc.cstu.gq/" target="_blank"><img src="img/aitc.svg" /> AMSJXNU IT Club</a></li>
+          <li class="list-group-item"><a href="https://cnk.cstu.gq/" target="_blank"><img src="img/cnk.svg" /> Crystal Nippon Bunka Kenkyu (Japan Research)</a></li>
+          <li class="list-group-item"><a href="http://116.62.200.125/" target="_blank"><img src="img/xjez.jpg" />&nbsp;IT Group of Xinjian No. 2 Middle School</a></li>
           <li class="list-group-item"><a href="https://vl.cstu.gq/" target="_blank"><img src="img/vast-light.png" />&nbsp;Minecraft Vast-Light</a></li>
         </ul>
       </div>
