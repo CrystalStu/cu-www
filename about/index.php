@@ -50,7 +50,7 @@
           for youngsters, especially talented students, to discuss trending technologies, and to practice them via
           coding in person. <br>
           <div class="text-center"><button type="button" class="btn btn-info btn-sm"
-              onClick="window.location='//ccs.cstu.gq'">Official website</button></div>
+              onClick="window.location='//ccs.cstu.xyz'">Official website</button></div>
         </p>
       </div>
       <div class="col-sm-4 text-justify mt-3 border">
@@ -82,7 +82,7 @@
         <p><h4>Vast-Light Studio (Vast-Light World)</h4></p>
         <p>An unofficial Minecraft servers alliance with VLW and CCS. Out-of-game experience is developed by TURX. The
           game is copyrighted by Mojang A.B.</p>
-        <p><button type="button" class="btn btn-info btn-sm" onClick="window.location='https://vl.cstu.gq'">Official
+        <p><button type="button" class="btn btn-info btn-sm" onClick="window.location='https://vl.cstu.xyz'">Official
           website</button></p>
       </div>
       <div class="col-sm-4 text-center mt-3 border" id="adc">

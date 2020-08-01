@@ -53,7 +53,7 @@
         </div>
         <div class="row">
             <div class="text-center col-md-12">
-                Mail: <a href="mailto:master@mail.cstu.gq">master@mail.cstu.gq</a>
+                Twitter: <a href="https://twitter.com/crystalstuX">@crystalstuX</a>
             </div>
         </div>
         <hr>

@@ -30,11 +30,13 @@
       </div>
       <div class="col-sm-12">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="https://ccs.cstu.gq/" target="_blank"><img src="img/ccs.png" />&nbsp;Crystal Computer Studio</a></li>
-          <li class="list-group-item"><a href="https://aitc.cstu.gq/" target="_blank"><img src="img/aitc.svg" /> AMSJXNU IT Club</a></li>
-          <li class="list-group-item"><a href="https://cnk.cstu.gq/" target="_blank"><img src="img/cnk.svg" /> Crystal Nippon Bunka Kenkyu (Japan Research)</a></li>
+          <li class="list-group-item"><a href="https://ccs.cstu.xyz/" target="_blank"><img src="img/ccs.png" />&nbsp;Crystal Computer Studio</a></li>
+          <li class="list-group-item"><a href="https://aitc.cstu.xyz/" target="_blank"><img src="img/aitc.svg" /> AMSJXNU IT Club</a></li>
+          <li class="list-group-item"><a href="https://cnk.cstu.xyz/" target="_blank"><img src="img/cnk.svg" /> Crystal Nippon Bunka Kenkyu (Japan Research)</a></li>
+          <!--
           <li class="list-group-item"><a href="http://116.62.200.125/" target="_blank"><img src="img/xjez.jpg" />&nbsp;IT Group of Xinjian No. 2 Middle School</a></li>
-          <li class="list-group-item"><a href="https://vl.cstu.gq/" target="_blank"><img src="img/vast-light.png" />&nbsp;Minecraft Vast-Light</a></li>
+          -->
+          <li class="list-group-item"><a href="https://vl.cstu.xyz/" target="_blank"><img src="img/vast-light.png" />&nbsp;Minecraft Vast-Light</a></li>
         </ul>
       </div>
     </div>
@@ -49,7 +51,7 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><a href="about"><i class="faa fas fa-info-circle"></i>&nbsp;About</a></li>
           <li class="list-group-item"><a href="partnership"><i class="faa fas fa-suitcase"></i>&nbsp;Partnership</a></li>
-          <li class="list-group-item"><a href="https://git.cstu.gq" target="_blank"><i class="faa fab fa-gitlab"></i>&nbsp;GitLab</a></li>
+          <li class="list-group-item"><a href="https://github.com/CrystalStu" target="_blank"><i class="faa fab fa-github"></i>&nbsp;GitHub</a></li>
         </ul>
       </div>
     </div>
